@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap  LAB 10 | SHARON RINGS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!--Navigation Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo/logo 1.jpg" width="30" height="30" class="d-inline-block align-top" alt="Your Logo">
+      Sharon Rings
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Navbar content here -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Hero using jumbotron bootstrap-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <img src="assets/images/anniversary-rings.jpg" class="img-fluid" alt="Hero Image">
+      <!-- Hero content here -->
+      <h1 class="display-4">Welcome to TP-Sharon Rings</h1>
+      <p class="lead">We Offer the best rings in the world. Try us today.</p>
+      <p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+  </div>
+
+  <!--Bootstrap Grids classes-->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-laptop-code fa-4x mb-4"></i>
+              <h4 class="card-title">Engagement Rings</h4>
+              <p class="card-text">Our handcrafted engagement rings create works of art with inspiration from the natural world, vintage eras and new trends.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt fa-4x mb-4"></i>
+              <h4 class="card-title">Wedding Rings</h4>
+              <p class="card-text">Handcrafted wedding bands, made with recycled metals, conflict-free or lab-created diamonds and gemstones.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-chart-line fa-4x mb-4"></i>
+              <h4 class="card-title">Anniversary Rings</h4>
+              <p class="card-text">We give you the best suitable ring for your Anniversary</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Boostrap Card -->
+  <section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Check our Portfolio</h2>
+      <div class="row">
+
+        <!-- Service items using Bootstrap grid -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/auburn_yg_2_09fdccbe-7943-4e4f-83c4-2f5f3da907b0.webp" class="card-img-top" alt="Portfolio Item 1">
+            <div class="card-body">
+              <h5 class="card-title">Engagement Rings</h5>
+              <p class="card-text">The ring is superb</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/wedding rings.jpg" class="card-img-top" alt="Portfolio Item 2">
+            <div class="card-body">
+              <h5 class="card-title">Wedding Rings</h5>
+              <p class="card-text">We have the best wedding rings so far</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/anniversary.webp" class="card-img-top" alt="Portfolio Item 3">
+            <div class="card-body">
+              <h5 class="card-title">Anniversary Rings</h5>
+              <p class="card-text">Description of the project goes here.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Bootstrap Forms-->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <form method="" action="">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Footer with social media icons-->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 TP-Sharon Rings. All rights reserved.</p>
+      <!-- Optional: Add social media icons -->
+      <div class="social-icons mt-3">
+        <a href="#"><i class="fab fa-facebook fa-lg text-white mr-3"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg text-white mr-3"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg text-white mr-3"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg text-white"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+ <!-- Bootstrap and custom scripts -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-z9+ma2F/2X5QUESzKpHXysqBccolZyULFffqfEEMqzDLFNMK5sX+Jb5GGwC7g0+F" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-ayN5vzg2wD0nESmH7DwTpjs/x+0DzlZbS5sToF2KoIbbdGF1uVcW/a2zrTth5m6O" crossorigin="anonymous"></script>
+
+</body>
+</html>

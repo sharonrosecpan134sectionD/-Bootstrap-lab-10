@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #ffffff;
+  }
+  
+  /* Hero section styles */
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem;
+  }
+  
+  /* Services section styles */
+  .card {
+    border: none;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  /* Portfolio section styles */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact form styles */
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
